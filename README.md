@@ -2,8 +2,6 @@
 
 This repository contains an experimental Julia artificial-chemistry simulator. It searches over random programmable cellular automata and looks for worlds whose dynamics stay interesting instead of immediately collapsing into noise, stasis, or short loops.
 
-The package directory is still named `Euler.jl` because that was the original scratch-project name. The actual project is not about Project Euler problems.
-
 ## What It Does
 
 The simulator builds two-dimensional toroidal worlds whose cells contain integer atom/species values. A `Physics` object assigns each species a tiny program. Those programs can move around local space, update a scratch tape, loop, and swap values with the world.
