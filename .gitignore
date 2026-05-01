@@ -1,0 +1,26 @@
+.DS_Store
+*.partial
+*.pb.gz
+
+# Generated media and simulation artifacts.
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.png
+*.jpg
+*.jpeg
+*.gif
+Euler.jl/histories*/
+Euler.jl/images/
+Euler.jl/src/histories/
+
+# Julia/editor scratch state.
+*.jl.cov
+*.jl.*.cov
+*.ji
+.vscode/
+Euler.jl/.vscode/
+artifacts/
+Euler.jl/artifacts/
